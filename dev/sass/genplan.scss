@@ -1,0 +1,18 @@
+.genplan {
+    height: 100%;
+    overflow: hidden; 
+}
+
+.build-item {
+    fill: #05ffff00;
+    stroke: #05ffff00;
+    fill-opacity: 0.3;
+    stroke-width: 3px;
+    transition: .1s;
+
+    &:hover {
+        fill: $colors-2;
+        stroke: $colors-2;
+    }
+
+}

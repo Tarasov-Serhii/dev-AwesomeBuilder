@@ -1,8 +1,25 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #000000;
-	a {
-		color: #a60808;
-	}
+header {
+    background-color: $colors-1;
+    padding: 24px 0;
+    .container {
+        display: flex;
+    }
+}
+
+.logo {
+    display: inline-block;
+    max-width: 140px;
+    margin-left: 5px;
+}
+
+.header-nav {
+    margin-left: auto;
+    display: flex;
+    font-size: 22px;
+}
+
+.nav-item {
+    padding: 12px 24px;
+    text-decoration: none;
+    color: $color-accent;
 }
